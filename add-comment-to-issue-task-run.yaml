@@ -1,0 +1,17 @@
+apiVersion: tekton.dev/v1beta1
+kind: TaskRun
+metadata:
+  generateName: github-add-comment-taskrun-
+spec:
+  serviceAccountName: pipeline
+  taskRef:
+    kind: Task
+    name: github-add-comment
+  params:
+    - name: REQUEST_URL
+      value: https://github.com/upslopeio/ibm-cloud-garage-training/issues/9
+    - name: COMMENT
+      value: |
+        I love squash and whippets.
+    - name: GITHUB_TOKEN_SECRET_NAME
+      value: github-felicia-eng

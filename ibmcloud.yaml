@@ -1,0 +1,28 @@
+clusters:
+  c408hlst0cb0km9tloi0:
+    nickname: ibmcloud-roks-kppsl
+    cluster: ibmcloud-roks-kppsl
+    region: jp-tok
+    resourceGroup: dteroks
+    account: garage
+    clusterType: openshift
+    serverUrl: https://c100-e.jp-tok.containers.cloud.ibm.com:31245
+    provider: classic
+  c408h46s0eac9jfd9rq0:
+    nickname: ibmcloud-roks-d1elq
+    cluster: ibmcloud-roks-d1elq
+    region: au-syd
+    resourceGroup: dteroks
+    account: dtetech
+    clusterType: openshift
+    serverUrl: https://c100-e.au-syd.containers.cloud.ibm.com:30527
+    provider: classic
+  c408gaqt0qgd0be64ngg:
+    nickname: ibmcloud-roks-8s3d9
+    cluster: ibmcloud-roks-8s3d9
+    region: jp-tok
+    resourceGroup: dteroks
+    account: dtetech
+    clusterType: openshift
+    serverUrl: https://c104-e.jp-tok.containers.cloud.ibm.com:32003
+    provider: classic
