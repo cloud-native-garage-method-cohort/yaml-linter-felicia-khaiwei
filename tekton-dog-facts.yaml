@@ -1,3 +1,4 @@
+---
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
@@ -10,5 +11,4 @@ spec:
       script: |
         mkdir dog-facts
         cd dog-facts
-        curl https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=2 > dog-facts.json
-        cat dog-facts.json
+        curl https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=2

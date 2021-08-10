@@ -1,3 +1,4 @@
-some yaml that isn't right
-Task: test
-kind: Task
+---
+# some yaml that isn't right - now corrected
+metadata:
+  name: test-yaml
